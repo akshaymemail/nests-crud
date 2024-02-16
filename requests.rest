@@ -1,0 +1,26 @@
+// GET ALL TODO
+//GET http://localhost:3000/todo/all
+
+// ADD TODO
+# POST http://localhost:3000/todo/add
+# Content-Type: application/json
+
+# {  
+#     "title":"Get starterd with nestjs",
+#     "status":"Completed"
+# }
+
+// GET SINGLE TODO
+//GET http://localhost:3000/todo/1
+
+// UPDATE A TODO
+# POST http://localhost:3000/todo/update/2
+# Content-Type: application/json
+
+# {  
+#     "title":"Added databse support",
+#     "status":"Archived"
+# }
+
+// DELETE A TODO
+//DELETE http://localhost:3000/todo/delete/3
